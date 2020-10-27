@@ -27,6 +27,11 @@ public class AppTest
     public void shouldReturnFizz(){
         assertThat(App.getAnswerFor(3),is("Fizz"));
     }
+    @Test
+    public void shouldReturnFour(){
+        assertThat(App.getAnswerFor(4),is("4"));
+    }
+
 
 
 
