@@ -10,4 +10,8 @@ public class App
     {
 
     }
+
+    public static String getAnswerFor(int number) {
+        return "";
+    }
 }
