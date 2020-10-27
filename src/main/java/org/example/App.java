@@ -12,6 +12,7 @@ public class App
     }
 
     public static String getAnswerFor(int number) {
-        return "1";
+        String num = String.valueOf(number);
+        return num;
     }
 }
