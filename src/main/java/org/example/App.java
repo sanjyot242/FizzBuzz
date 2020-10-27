@@ -12,13 +12,13 @@ public class App
     }
 
     public static String getAnswerFor(int number) {
+        String answer = String.valueOf(number);
         if(number%3==0){
-            return "Fizz";
+            answer = "Fizz";
         }
         if(number%5==0){
-            return "Buzz";
+           answer = "Buzz";
         }
-        String num = String.valueOf(number);
-        return num;
+        return answer;
     }
 }
