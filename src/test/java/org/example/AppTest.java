@@ -39,6 +39,10 @@ public class AppTest
     public void shouldReturnFizz_divisibleBy3(){
         assertThat(App.getAnswerFor(6),is("Fizz"));
     }
+    @Test
+    public void shouldReturnBuzz_divisibleBy5(){
+        assertThat(App.getAnswerFor(10),is("Buzz"));
+    }
 
 
 
