@@ -21,21 +21,14 @@ public class AppTest
         assertThat(App.getAnswerFor(2),is("2"));
         assertThat(App.getAnswerFor(4),is("4"));
     }
-
     @Test
-    public void shouldReturnFizz_For_3(){
+    public void shouldReturnFizz_If_3_OrDivisibleBy3(){
         assertThat(App.getAnswerFor(3),is("Fizz"));
-    }
-    @Test
-    public void shouldReturnBuzz_For_5(){
-        assertThat(App.getAnswerFor(5),is("Buzz"));
-    }
-    @Test
-    public void shouldReturnFizz_divisibleBy3(){
         assertThat(App.getAnswerFor(6),is("Fizz"));
     }
     @Test
-    public void shouldReturnBuzz_divisibleBy5(){
+    public void shouldReturnBuzz_If_5_OrDivisibleBy5(){
+        assertThat(App.getAnswerFor(5),is("Buzz"));
         assertThat(App.getAnswerFor(10),is("Buzz"));
     }
     @Test

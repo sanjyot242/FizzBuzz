@@ -8,7 +8,10 @@ public class App
 {
     public static void main( String[] args )
     {
-
+        for(int i=1;i<=100;i++){
+            String printAnswer = getAnswerFor(i);
+            System.out.println(printAnswer);
+        }
     }
 
     public static String getAnswerFor(int number) {
