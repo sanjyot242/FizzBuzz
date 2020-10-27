@@ -19,6 +19,10 @@ public class AppTest
     {
         assertThat(App.getAnswerFor(1),is("1"));
     }
+    @Test
+    public void shouldReturnTwo(){
+        assertThat(App.getAnswerFor(2),is("2"));
+    }
 
 
 
