@@ -12,6 +12,9 @@ public class App
     }
 
     public static String getAnswerFor(int number) {
+        if(number==3){
+            return "Fizz";
+        }
         String num = String.valueOf(number);
         return num;
     }
